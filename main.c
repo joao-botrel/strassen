@@ -8,8 +8,8 @@ int main() {
 
     //Ler cabeçalho
     scanf("%s", cabecalho); //lê o formato
-    scanf("%d %d", largura, altura); //lê as dimensões
-    scanf("%d", max); //lê o valor máximo de cor
+    scanf("%d %d", &largura, &altura); //lê as dimensões
+    scanf("%d", &max); //lê o valor máximo de cor
 
     //Alocar as matrizes de pixels
     Pixel **matriz1 = alocarMatriz(altura, largura);

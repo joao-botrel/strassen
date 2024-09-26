@@ -170,5 +170,5 @@ Pixel** strassen(Pixel **matriz1, Pixel **matriz2, int largura){
         return matrizR;
     }
 
-
+    return matrizR;
 }
